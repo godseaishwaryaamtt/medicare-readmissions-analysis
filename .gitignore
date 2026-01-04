@@ -1,0 +1,21 @@
+# Data files (don't commit large CSVs)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# DBeaver
+.dbeaver/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Temp files
+*.tmp
+*~
